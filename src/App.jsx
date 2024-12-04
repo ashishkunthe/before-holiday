@@ -9,6 +9,8 @@ import {
   FaYoutube,
 } from "react-icons/fa";
 import BannerForm from "./BannerForm";
+import Content from "./Content";
+import Footer from "./Footer";
 
 const destinationsIndia = [
   { id: 1, name: "Andaman Tour" },
@@ -188,6 +190,8 @@ function App() {
         </ul>
       </header>
       <BannerForm />
+      <Content />
+      <Footer />
     </div>
   );
 }
