@@ -11,6 +11,8 @@ import {
 import BannerForm from "./BannerForm";
 import Content from "./Content";
 import Footer from "./Footer";
+import Content1 from "./Content1";
+import Trip from "./Trip";
 
 const destinationsIndia = [
   { id: 1, name: "Andaman Tour" },
@@ -191,6 +193,9 @@ function App() {
       </header>
       <BannerForm />
       <Content />
+      <br />
+      <Content1 />
+      <Trip />
       <Footer />
     </div>
   );
